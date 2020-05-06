@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ActivityNasional"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_Botom_margin"
+    android:paddingTop="@dimen/activity_Top_margin"
+    android:paddingVertical="@dimen/activity_vertical_margin"
+    android:paddingHorizontal="@dimen/activity_horizontal_margin"
+    android:id="@+id/pagenasional">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"></LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DATA COVID-19 DI INDONESIA SECARA TEPAT DAN AKURAT"
+        android:paddingTop="@dimen/activity_Botom_margin"
+        android:textAlignment="center"
+        android:paddingBottom="@dimen/activity_horizontal_margin"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Situs ini merupakan sumber informasi inisiatif sukarela warganet Indonesia pro-data, terdiri dari praktisi kesehatan, akademisi dan profesional."
+        android:textSize="16dp"
+        android:paddingBottom="@dimen/activity_horizontal_margin"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kasus di Indonesia saat ini"
+        android:paddingTop="@dimen/activity_Botom_margin"
+        android:textAlignment="center"
+        android:paddingBottom="@dimen/activity_horizontal_margin"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terkonfirmasi 11.597 Kasus"
+        android:textSize="25dp"
+        android:paddingTop="@dimen/activity_Top_margin"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dalam Perawatan 8.769 Orang"
+        android:textSize="25dp"
+        android:paddingTop="@dimen/activity_Top_margin"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sembuh 1.954 Orang"
+        android:textSize="25dp"
+        android:paddingTop="@dimen/activity_Top_margin"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meninggal 864 Orang"
+        android:paddingTop="@dimen/activity_Top_margin"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+    <TextView
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jadilah bagian dari penggalangan dana di #BersamaLawanCorona"
+        android:textSize="10dp"
+        android:layout_marginTop="@dimen/activity_Top_margin"
+        android:textAlignment="center"
+        android:paddingBottom="@dimen/activity_horizontal_margin"/>
+</LinearLayout>
